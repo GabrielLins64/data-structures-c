@@ -1,0 +1,8 @@
+# Binaries
+bin
+
+# Object files
+build
+
+# Third party Libraries
+lib
