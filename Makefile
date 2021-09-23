@@ -32,7 +32,7 @@ $(TARGET): $(OBJ)
 	@echo "🎇 Build complete!"
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
-	@echo "🪛 Compiling object file: $@..."
+	@echo "🪛  Compiling object file: $@..."
 	@$(CC) $(CC_FLAGS) $< -I $(INCLUDE_DIR)/ -o $@
 
 objFolder:
