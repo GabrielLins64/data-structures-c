@@ -8,4 +8,10 @@
  */
 void test_cube();
 
+/**
+ * @brief Tests the bank account abstract data structure (ADS)
+ * 
+ */
+void test_bnk_acc();
+
 #endif

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "bankaccount.h": "c",
+    "stdlib.h": "c"
+  }
+}
