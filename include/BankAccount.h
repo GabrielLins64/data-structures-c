@@ -52,4 +52,11 @@ bool bnk_acc_withdraw(BankAccount* acc, double value);
  */
 void print_balance(BankAccount* acc);
 
+/**
+ * @brief Frees memory allocated by a bank account object
+ * 
+ * @param acc 
+ */
+void bnk_acc_free(BankAccount* acc);
+
 #endif

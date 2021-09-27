@@ -27,4 +27,6 @@ void test_bnk_acc()
     print_balance(bnkAccount);
     bnk_acc_withdraw(bnkAccount, 21.23);
     print_balance(bnkAccount);
+
+    bnk_acc_free(bnkAccount);
 }

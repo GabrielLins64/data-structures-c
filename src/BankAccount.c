@@ -32,3 +32,8 @@ void print_balance(BankAccount* acc)
 {
     printf("Account %lu balance: %lf\n", acc->number, acc->balance);
 }
+
+void bnk_acc_free(BankAccount* acc)
+{
+    free(acc);
+}
